@@ -18,4 +18,15 @@ describe('Calculator', function() {
     expect(calculator.subtract()).toEqual(4)
   })
 
+  it('should test two numbers to calculate multipication', function() {
+    let calculator = new Calculator(4,5)
+    expect(calculator.multiply()).toEqual(20)
+  })
+
+  it('should test two numbers to calculate division', function() {
+    let calculator = new Calculator(6,2)
+    expect(calculator.divide()).toEqual(3)
+  })
+
+
 })

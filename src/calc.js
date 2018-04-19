@@ -12,13 +12,13 @@ class Calculator {
     return this.number1 - this.number2;
   }
 
-  // multiply() {
-  //   return this.number1 * this.number2;
-  // }
-  //
-  // divide() {
-  //   return this.number1 / this.number2;
-  // }
+  multiply() {
+    return this.number1 * this.number2;
+  }
+
+  divide() {
+    return this.number1 / this.number2;
+  }
 
 }
 
