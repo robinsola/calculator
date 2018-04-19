@@ -1,15 +1,25 @@
-var add = function(number1, number2) {
-  return number1 + number2;
-};
+class Calculator {
+  constructor(number1, number2){
+    this.number1 = number1;
+    this.number2 = number2;
+  }
+  //
+  // add() {
+  //   return this.number1 + this.number2;
+  // }
+  //
+  // subtract() {
+  //   return this.number1 - this.number2;
+  // }
+  //
+  // multiply() {
+  //   return this.number1 * this.number2;
+  // }
+  //
+  // divide() {
+  //   return this.number1 / this.number2;
+  // }
 
-var subtract = function(number1, number2) {
-  return number1 - number2;
-};
+}
 
-var multiply = function(number1, number2) {
-  return number1 * number2;
-};
-
-var divide = function(number1, number2) {
-  return number1 / number2;
-};
+export {Calculator};
