@@ -8,4 +8,14 @@ describe('Calculator', function() {
     expect(calculator.number2).toEqual(5)
   })
 
+  it('should test two numbers to calculate addition', function() {
+    let calculator = new Calculator(4,5)
+    expect(calculator.add()).toEqual(9)
+  })
+
+  it('should test two numbers to calculate subtraction', function() {
+    let calculator = new Calculator(6,2)
+    expect(calculator.subtract()).toEqual(4)
+  })
+
 })

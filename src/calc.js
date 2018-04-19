@@ -3,15 +3,15 @@ class Calculator {
     this.number1 = number1;
     this.number2 = number2;
   }
-  //
-  // add() {
-  //   return this.number1 + this.number2;
-  // }
-  //
-  // subtract() {
-  //   return this.number1 - this.number2;
-  // }
-  //
+
+  add() {
+    return this.number1 + this.number2;
+  }
+
+  subtract() {
+    return this.number1 - this.number2;
+  }
+
   // multiply() {
   //   return this.number1 * this.number2;
   // }
