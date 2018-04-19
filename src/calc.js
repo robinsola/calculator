@@ -19,7 +19,6 @@ class Calculator {
   divide() {
     return this.number1 / this.number2;
   }
-
 }
 
 export {Calculator};
