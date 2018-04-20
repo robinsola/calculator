@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 $(document).ready(function() {
-  event.preventDefault();
-  $("#calc").submit(function() {
+  $("#calc").submit(function(event) {
+    event.preventDefault();
     let number1 = parseInt($("#input1").val());
     let number2 = parseInt($("#input2").val());
     let newCalc = new Calculator(number1, number2);
